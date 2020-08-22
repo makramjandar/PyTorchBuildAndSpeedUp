@@ -57,8 +57,8 @@ sudo rm -r ~/pytorch
 rm -- "$0"
 
 # Quick Install:
-# With Cuda >> wget -O - -q "https://raw.githubusercontent.com/makramjandar/AwesomeScripts/master/handyDandy/build/pytorch/build.sh" && bash build.sh cuda 
-# CPU Only  >> wget -O - -q "https://raw.githubusercontent.com/makramjandar/AwesomeScripts/master/handyDandy/build/pytorch/build.sh" && bash build.sh
+# With Cuda >> wget -O - -q "https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master/buildPyTorch.sh" && buildPyTorch.sh cuda 
+# CPU Only  >> wget -O - -q "https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master/buildPyTorch.sh" && bash buildPyTorch.sh
 
 # Ref:
 # https://github.com/conda/conda/issues/7980
