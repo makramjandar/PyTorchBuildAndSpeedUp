@@ -28,7 +28,7 @@ conda config --set auto_activate_base false
 # exec bash
 
 # Quick Install:
-# wget 'https://raw.githubusercontent.com/makramjandar/AwesomeScripts/master/handyDandy/install/conda.sh' && . conda.sh
+# wget 'https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master/installConda.sh' && . conda.sh
 # Ref:
 # https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-18-04
 # https://github.com/ContinuumIO/anaconda-issues/issues/11154
