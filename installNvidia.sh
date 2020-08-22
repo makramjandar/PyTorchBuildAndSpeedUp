@@ -73,7 +73,7 @@ rm "${NAME}"
 
 
 # Quick Install:
-# wget -O - -q "https://raw.githubusercontent.com/makramjandar/AwesomeScripts/master/handyDandy/install/nvidia.sh" | bash
+# wget -O - -q "https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master/installNvidia.sh" | bash
 
 # Ref:
 # https://www.mvps.net/docs/install-nvidia-drivers-ubuntu-18-04-lts-bionic-beaver-linux/
