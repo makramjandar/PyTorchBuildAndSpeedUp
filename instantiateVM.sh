@@ -88,4 +88,4 @@ export SSH="$HOME/ssh-$MACHINE_NAME.sh" && bash $SSH
 rm -- "$0"
 
 # Quick Install
-# wget "https://raw.githubusercontent.com/makramjandar/AwesomeScripts/master/handyDandy/cloud/gcp/gcs/vmInstantiation&SSH.sh" && bash vmInstantiation&SSH.sh
+# wget "https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master/instantiateVM.sh" && bash instantiateVM.sh
