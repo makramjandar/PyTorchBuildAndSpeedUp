@@ -27,7 +27,6 @@ conda config --set auto_activate_base false
 # rm -- "$0"
 # exec bash
 
-
 # Quick Install:
 # wget 'https://raw.githubusercontent.com/makramjandar/AwesomeScripts/master/handyDandy/install/conda.sh' && . conda.sh
 # Ref:
