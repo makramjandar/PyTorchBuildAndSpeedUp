@@ -90,7 +90,7 @@ Now download the examples and run MNIST:
 cd ~ && git clone https://github.com/pytorch/examples.git && python ~/examples/mnist/python/main.py
 ```
 
-Voilà!!!
+Voilà !!
 
 ## License
 PyTorch is BSD-style licensed, as found in the LICENSE file.
