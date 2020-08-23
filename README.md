@@ -1,6 +1,6 @@
 ![PyTorch](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/PyTorch_logo_white.svg/200px-PyTorch_logo_white.svg.png)
 # PyTorch Build and SpeedUp
-[![licence badge]][licence]
+![License](https://img.shields.io/badge/license-Do%20WTF!%20You%20Want-green.svg)  
 [![stars badge]][stars]
 [![forks badge]][forks]
 [![issues badge]][issues]
@@ -102,7 +102,6 @@ Voilà !!
 ## License
 PyTorch is BSD-style licensed, as found in the LICENSE file.
 
-[licence badge]:https://img.shields.io/badge/license-MIT-blue.svg
 [stars badge]:https://img.shields.io/github/stars/makramjandar/PyTorchBuildAndSpeedUp.svg
 [forks badge]:https://img.shields.io/github/forks/makramjandar/PyTorchBuildAndSpeedUp.svg
 [issues badge]:https://img.shields.io/github/issues/makramjandar/PyTorchBuildAndSpeedUp.svg
@@ -110,10 +109,15 @@ PyTorch is BSD-style licensed, as found in the LICENSE file.
 [feature request badge]:https://img.shields.io/github/issues/makramjandar/PyTorchBuildAndSpeedUp/Feature%20Request.svg
 [question badge]:https://img.shields.io/github/issues/makramjandar/PyTorchBuildAndSpeedUp/Question.svg
 
-[licence]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/blob/master/LICENSE
 [stars]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/stargazers
 [forks]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/network
 [issues]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/issues
 [bug report]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/issues?q=is%3Aopen+is%3Aissue+label%3A%22Bug+Report%22
 [feature request]:https://makramjandar/PyTorchBuildAndSpeedUp/issues?q=is%3Aopen+is%3Aissue+label%3A%22Feature+Request%22
 [question]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/issues?q=is%3Aopen+is%3Aissue+label%3AQuestion
+[stars]:https://github.com/makramjandar/DataScienceToolkit/stargazers
+[forks]:https://github.com/makramjandar/DataScienceToolkit/network
+[issues]:https://github.com/makramjandar/DataScienceToolkit/issues
+[bug report]:https://github.com/makramjandar/DataScienceToolkit/issues?q=is%3Aopen+is%3Aissue+label%3A%22Bug+Report%22
+[feature request]:https://makramjandar/DataScienceToolkit/issues?q=is%3Aopen+is%3Aissue+label%3A%22Feature+Request%22
+[question]:https://github.com/makramjandar/DataScienceToolkit/issues?q=is%3Aopen+is%3Aissue+label%3AQuestion
