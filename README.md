@@ -24,7 +24,7 @@ PyTorch is a Python package that provides two high-level features:
 ## Prerequisites
 
 #### <img src="https://raw.githubusercontent.com/data-scientifically-yours/resources/master/icones/gce.png" width="30" height="30" align="center"/> Instantiate a GPU on GCE Nvidia enabled VM
-  For the previous step we will need a GCP account. It’s [free](#https://cloud.google.com/free/).
+  For the previous step we will need a GCP account. It’s <b>[free](https://cloud.google.com/free/)</B>...  
   
   [![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/makramjandar/PyTorchSpeedUpAndOptimize&page=editor&open_in_editor=README.md)
 ```bash
