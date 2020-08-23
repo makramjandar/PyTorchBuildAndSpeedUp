@@ -16,22 +16,22 @@ conda activate ${ENV}
 conda install -y numpy pyyaml mkl mkl-include setuptools cmake cffi typing
 sleep 2
 
-# 1 - Specify build with Cuda instead of CPU.
+# Specify build with Cuda instead of CPU.
 if [ "$1" == "cuda" ]; then 
   CUDA=1
   CUDNN=1
   conda install -y -c pytorch magma-cuda100
 fi
 
-# 2 - Install OpenMP, a library for better CPU Multi-Threading.
+# Install OpenMP, a library for better CPU Multi-Threading.
 sudo apt-get install -y libomp-dev
 
-# 3 - Pytorch fork with extended librairies.
+# Pytorch fork with extended librairies.
 cd ~
 git clone --recursive https://github.com/data-scientifically-yours/pytorch.git
 sleep 2
 
-# 4 - Build & Install the library with the following steps:
+#  Build & Install the library with the following steps:
 # For CMake (building tool) where to put the resulting files.
 export CMAKE_PREFIX_PATH="$HOME/$CONDA_VER/envs/$ENV"
 # Temporarily rename Anaconda compatibility linker for avoiding older symlinks mistakes. 
@@ -42,7 +42,7 @@ python ~/pytorch/setup.py install
 # Rename back the Anaconda compiler linker.
 mv ~/$CONDA_VER/envs/$ENV/compiler_compat/ld-old ~/$CONDA_VER/envs/$ENV/compiler_compat/ld
 
-# 5 - CleanUp:
+# CleanUp:
 sudo rm -r ~/pytorch
 rm -- "$0"
 
