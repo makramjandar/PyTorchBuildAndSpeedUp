@@ -13,12 +13,12 @@ PyTorch is a Python package that provides two high-level features:
 > Deep neural networks built on a tape-based autograd system  
 
 - [Prerequisites](#Prerequisites)
-  - [Instantiate a GPU on GCE Nvidia enabled VM](#Instantiate-a-GPU-on-GCE-Nvidia-enabled-VM)
-  - [Install Nvidia Driver](#Install-Nvidia-Driver)
-  - [Install Anaconda](#Install-Anaconda)
+  - [Instantiate a GPU on GCE Nvidia enabled VM](#Instantiate a GPU on GCE Nvidia enabled VM)
+  - [Install Nvidia Driver](#Install Nvidia Driver)
+  - [Install Anaconda](#Install Anaconda)
 - [Build From Source](#Build-From-Source)
-  - [With Cuda](#With-Cuda)
-  - [CPU Only](#CPU-Only)
+  - [With Cuda](#With Cuda)
+  - [CPU Only](#CPU Only)
 - [Verify installation](#Verify-installation)
 
 ## Prerequisites
