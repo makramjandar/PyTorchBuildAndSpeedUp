@@ -28,7 +28,9 @@ PyTorch is a Python package that provides two high-level features:
   
   [![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/makramjandar/PyTorchSpeedUpAndOptimize&page=editor&open_in_editor=README.md)
 ```bash
-  bash instantiateVM.sh
+  BASE_URL='https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master' \
+  && URL="$BASE_URL/instantiateVM.sh" \
+  && wget -O - -q "${URL}" | bash instantiateVM.sh
 ```
 
 Once the VM has been deployed, in case it's not done automatically, we can login into it from Google Cloud Shell:
@@ -38,26 +40,35 @@ Once the VM has been deployed, in case it's not done automatically, we can login
 
 #### <img src="https://raw.githubusercontent.com/data-scientifically-yours/resources/master/icones/nvidia.png" width="40" height="40" align="center"/> Install Nvidia Driver
 ```bash
-  bash installNvidia.sh
+  BASE_URL='https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master' \
+  && URL="$BASE_URL/installNvidia.sh" \
+  && wget -O - -q "${URL}" | bash installNvidia.sh
 ```
 
 #### <img src="https://raw.githubusercontent.com/data-scientifically-yours/resources/master/icones/anaconda.png" width="30" height="30" align="center"/> Install Anaconda
 
 When building anything, it’s safer to do it in a conda environment to not pollute your system environment.
 ```bash
-  bash installConda.sh
+  BASE_URL='https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master' \
+  && URL="$BASE_URL/installConda.sh" \
+  && wget -O - -q  "${URL}" \
+  && . conda.sh
 ```
 
 ## Build From Source
 
 #### <img src="https://raw.githubusercontent.com/data-scientifically-yours/resources/master/icones/cudnn.png" width="30" height="30" align="center"/> With Cuda
 ```bash
-  bash buildPyTorch.sh cuda
+  BASE_URL='https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master' \
+  && URL="$BASE_URL/buildPyTorch.sh" \
+  && wget -O - -q  "${URL}" | bash buildPyTorch.sh cuda
 ```
   
 #### <img src="https://raw.githubusercontent.com/data-scientifically-yours/resources/master/icones/cpu.png" width="30" height="30" align="center"/> CPU Only
 ```bash
-  bash buildPyTorch.sh
+  BASE_URL='https://raw.githubusercontent.com/makramjandar/PyTorchSpeedUpAndOptimize/master' \
+  && URL="$BASE_URL/buildPyTorch.sh" \
+  && wget -O - -q  "${URL}" | bash buildPyTorch.sh
 ```
 
 ## Verify installation
@@ -66,9 +77,7 @@ Still under the pytorch-build environment, let’s run some examples to make sur
 
 Build the torchvision library from source.
 ```bash
-cd ~
-git https://github.com/pytorch/vision.git
-python ~/vision/setup.py install
+cd ~ && git https://github.com/pytorch/vision.git && python ~/vision/setup.py install
 ```
 
 Install tqdm (a dependency for downloading torchvision datasets) with pip in order to run the MNIST example. 
@@ -78,9 +87,7 @@ pip install tqdm
 
 Now download the examples and run MNIST:
 ```bash
-cd ~
-git clone https://github.com/pytorch/examples.git
-python ~/examples/mnist/python/main.py
+cd ~ && git clone https://github.com/pytorch/examples.git && python ~/examples/mnist/python/main.py
 ```
 
 Voilà!!!
