@@ -1,5 +1,5 @@
 ![PyTorch](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/PyTorch_logo_white.svg/200px-PyTorch_logo_white.svg.png)
-# PyTorch Build and Speedup
+# PyTorch Build and SpeedUp
 ```
 IMHO,
 building PyTorch from source diminished training in a weird but noticeable way ?!
