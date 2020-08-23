@@ -1,5 +1,12 @@
 ![PyTorch](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/PyTorch_logo_white.svg/200px-PyTorch_logo_white.svg.png)
 # PyTorch Build and SpeedUp
+[![licence badge]][licence]
+[![stars badge]][stars]
+[![forks badge]][forks]
+[![issues badge]][issues]
+[![bug report badge]][bug report]
+[![feature request badge]][feature request]
+[![question badge]][question]
 ```
 IMHO,
 building PyTorch from source diminished training in a weird but noticeable way ?!
@@ -94,3 +101,19 @@ Voilà !!
 
 ## License
 PyTorch is BSD-style licensed, as found in the LICENSE file.
+
+[licence badge]:https://img.shields.io/badge/license-MIT-blue.svg
+[stars badge]:https://img.shields.io/github/stars/makramjandar/PyTorchBuildAndSpeedUp.svg
+[forks badge]:https://img.shields.io/github/forks/makramjandar/PyTorchBuildAndSpeedUp.svg
+[issues badge]:https://img.shields.io/github/issues/makramjandar/PyTorchBuildAndSpeedUp.svg
+[bug report badge]:https://img.shields.io/github/issues/makramjandar/PyTorchBuildAndSpeedUp/Bug%20Report.svg
+[feature request badge]:https://img.shields.io/github/issues/makramjandar/PyTorchBuildAndSpeedUp/Feature%20Request.svg
+[question badge]:https://img.shields.io/github/issues/makramjandar/PyTorchBuildAndSpeedUp/Question.svg
+
+[licence]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/blob/master/LICENSE
+[stars]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/stargazers
+[forks]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/network
+[issues]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/issues
+[bug report]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/issues?q=is%3Aopen+is%3Aissue+label%3A%22Bug+Report%22
+[feature request]:https://makramjandar/PyTorchBuildAndSpeedUp/issues?q=is%3Aopen+is%3Aissue+label%3A%22Feature+Request%22
+[question]:https://github.com/makramjandar/PyTorchBuildAndSpeedUp/issues?q=is%3Aopen+is%3Aissue+label%3AQuestion
