@@ -5,21 +5,21 @@ IMHO,
 building PyTorch from source diminished training in a weird but noticeable way ?!
 Approximately 12 seconds per epoch for an AlexNet-like with CUDA, and 30 seconds on CPU-only.
 For those who might want to explore different avenues regarding this likely improvement, 
-here after a step-by-step (oh, baby !!) for both CUDA and CPU-only installs.
+here after a step-by-step (oh, baby !!) for both CUDA and CPU-only installs...
 ```
   
 PyTorch is a Python package that provides two high-level features:
 > Tensor computation (like NumPy) with strong GPU acceleration  
 > Deep neural networks built on a tape-based autograd system  
 
-- [Prerequisite](#Prerequisite)
+- [Prerequisites](#Prerequisites)
   - [Instantiate a GPU on GCE Nvidia enabled VM](#Instantiate-a-GPU-on-GCE-Nvidia-enabled-VM)
   - [Install Nvidia Driver](#Install-Nvidia-Driver)
   - [Install Anaconda](#Install-Anaconda)
 - [Build From Source](#Build-From-Source)
   - [With Cuda](#With-Cuda)
   - [CPU Only](#CPU-Only)
-- [Verify your installation](#Verify-your-installation)
+- [Verify installation](#Verify-installation)
 
 ## Prerequisites
 
@@ -60,7 +60,7 @@ When building anything, it’s safer to do it in a conda environment to not poll
   bash buildPyTorch.sh
 ```
 
-## Verify your installation
+## Verify installation
 
 Still under the pytorch-build environment, let’s run some examples to make sure your installation is correct.
 
