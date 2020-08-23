@@ -5,7 +5,7 @@ IMHO,
 building PyTorch from source diminished training in a weird but noticeable way ?!
 Approximately 12 seconds per epoch for an AlexNet-like with CUDA, and 30 seconds on CPU-only.
 For those who might want to explore different avenues regarding this likely improvement, 
-here after a step-by-step (oh, baby !!) for both CUDA and CPU-only installs...
+here after a step-by-step for both CUDA and CPU-only installs...
 ```
   
 PyTorch is a Python package that provides two high-level features:
